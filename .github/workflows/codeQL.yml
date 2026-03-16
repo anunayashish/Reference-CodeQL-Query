@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     branches: [main]
 
-on:
-  pull_request:
-    branches: [main]
+#on:
+#  pull_request:
+#    branches: [main]
 
 jobs:
   CodeQL-Build:
